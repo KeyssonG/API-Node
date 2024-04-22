@@ -1,0 +1,32 @@
+Projeto:
+API com conexão ao banco de dados. 
+
+tecnologias usadas:
+
+Rotas:
+Fastify
+
+Plugins:
+MySql - instalado o Plugin e o banco de dados local. Criado um banco, tabela e 3 colunas: id, name e price.
+
+Gerenciador de Pacotes:
+npm
+
+Dependências:
+nodemon
+
+Estrutura do projeto:
+
+- Documentação
+|
+- node_modules
+|
+- src
+    |- routes
+            |- products.js
+            |- routes.js
+    |- index.js
+|
+-package-lock.json
+|
+package.json
